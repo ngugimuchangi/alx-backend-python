@@ -1,4 +1,4 @@
-#!/ur/bin/python3
+#!/usr/bin/env python3
 """ Type Checking Module
 """
 from typing import List, Tuple
