@@ -4,10 +4,8 @@
 """
 from typing import List, Tuple, Union
 
-int_float = Union[int, float]
 
-
-def to_kv(k: str, v: int_float) -> Tuple[str, int_float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """ Function to return a tuple of str and int or float
         based on passed arguments
     """
