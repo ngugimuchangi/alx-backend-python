@@ -11,4 +11,4 @@ def to_kv(k: str, v: int_float) -> Tuple[str, int_float]:
     """ Function to return a tuple of str and int or float
         based on passed arguments
     """
-    return (k, v)
+    return (k, (v * v))
