@@ -16,3 +16,4 @@
 3. Function `task_wait_random` that takes an integer `max_delay` and returns a `asyncio.Task` based on  coroutine `wait_random`.
     * [3-tasks.py](3-tasks.py)
 4. Function `task_wait_n`: an altered form of function `wait_n` that calls function `task_wait_random` instead of `wait_random`
+    * [4-tasks.py](4-tasks.py)
